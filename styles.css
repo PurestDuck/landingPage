@@ -69,3 +69,36 @@ li{
     font-weight: 300;
     margin-bottom: 10px;
 }
+#randomInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.infoText{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.picLayout{
+    display: flex;
+    flex-flow: row wrap;
+    gap:30px;
+    
+}
+.picInfo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.picInfo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: solid #3882F6 4px;
+    
+}
+
