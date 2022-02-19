@@ -101,4 +101,26 @@ li{
     border: solid #3882F6 4px;
     
 }
-
+#quoteBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.fullQuote{
+    padding: 10vh 0;
+    width: 30vw;
+}
+.quote{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.signOff{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
