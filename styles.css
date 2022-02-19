@@ -53,8 +53,9 @@ li{
 .signButt{
     background-color: #3882F6;
     color:white;
+    border: solid #3882F6 2px;
     border-radius: 12px;
-    border-color: #3882F6;
+    
     width:8vw;
     height:4vh;
     font-weight: bold;
@@ -123,4 +124,26 @@ li{
     display: flex;
     justify-content: flex-end;
     font-size: 20px;
+}
+#signUpBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.signUp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20px;
+    height: 18vh;
+    width: 80vw;
+}
+.signUp button{
+    border-color: white;
+}
+
+.signUpText{
+    color: white;
 }
